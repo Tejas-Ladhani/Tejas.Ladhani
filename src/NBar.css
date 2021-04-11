@@ -1,0 +1,41 @@
+.f-container{
+    padding-top: .7rem;
+    justify-content: flex-end !important;
+    padding-right: 5rem;
+}
+.nav-link{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: large;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+}
+.nav-link:last-child{
+   margin-left: 0.5rem;
+}
+.nav-link:hover{
+    transition: 0.2s;
+    border-bottom: 1px solid blue;
+}
+.navbar-brand{
+    color: #000000;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.navbar-brand:after{
+    position: absolute;
+     top:30%;
+    left: 3.5px;
+    width: 38px;
+    height: 38px;
+    content: '';
+    background: #5c7dff8f;
+    z-index: -1;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+

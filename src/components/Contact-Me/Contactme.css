@@ -1,0 +1,12 @@
+
+.bx {
+    width: 100%;
+    display: block; 
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+    color:rgb(83, 81, 81)
+}

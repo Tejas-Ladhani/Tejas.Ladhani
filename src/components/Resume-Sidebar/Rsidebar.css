@@ -1,0 +1,19 @@
+#navi {
+    top: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    /* border: 0.1px dashed black */
+
+ }
+#navi li {
+    font-weight: 700;
+    list-style: none;
+    margin-bottom: 10px;
+    padding:0;
+}
+#navi a {
+    color: #000000;
+    text-decoration: none !important;
+    background-color: transparent;
+    font-size: large;
+}
