@@ -2,7 +2,7 @@
 import React, { useState, createContext } from 'react'
 import { BlockPicker } from 'react-color'
 import Tippy from '@tippyjs/react'
-import { Navbar, Nav, DropdownButton, Dropdown } from 'react-bootstrap'
+import { Navbar, Nav} from 'react-bootstrap'
 import Landing from './components/Landing-Container/Landing'
 import Rsidebar from './components/Resume-Sidebar/Rsidebar';
 import RContent from './components/Resume-Content/RContent';
@@ -21,7 +21,7 @@ export default function App() {
             onChangeComplete={c => setselectedColor(c.hex)}
         />
     }>
-        <button className="btn" style={{ backgroundColor: selectedColor ,color:'white',opacity:'0.8'}}> Theme</button>
+        <button className="btn cbtn"  style={{ backgroundColor: selectedColor ,color:'white',opacity:'0.8'}}> Theme</button>
     </Tippy>
 
     return (

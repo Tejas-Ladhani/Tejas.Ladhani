@@ -1,32 +1,33 @@
-import React,{useContext} from 'react'
-import {context} from '../../App'
+import React, { useContext } from 'react'
+import { context } from '../../App'
+import Bounce from 'react-reveal/Fade';
 export default function Project() {
 
-    const colr=useContext(context);
-    const heading_style={
-           fontWeight: '800',
-           fontSize: '30px',
-           marginBottom: '30px',
-           color:colr,
-           lineHeight: '1.5'
-       }
+    const colr = useContext(context);
+    const heading_style = {
+        fontWeight: '800',
+        fontSize: '30px',
+        marginBottom: '30px',
+        color: colr,
+        lineHeight: '1.5'
+    }
 
-       const date_style={
-           fontWeight: '700',
-           fontSize: '16px',
-           color: colr
-       }
-       const btn_style = {
+    const date_style = {
+        fontWeight: '700',
+        fontSize: '16px',
+        color: colr
+    }
+    const btn_style = {
         textDecoration: 'none',
         borderRadius: '100px !important',
         color: '#fff',
         boxShadow: '3px 3px 6px #b8b8b8',
         backgroundColor: colr
-        }
-   
+    }
+
     // ===========================================================================
     const pros = [{
-        id:0,
+        id: 0,
         img_src: "assets/icons/project-icons/FFIT.png",
         date: "2021-Present",
         heading: "FFit",
@@ -35,25 +36,25 @@ export default function Project() {
         link: "https://github.com/Tejas-Ladhani/F-Fit"
     },
     {
-        id:1,
+        id: 1,
         img_src: "assets/icons/project-icons/file.png",
         date: "2020",
         heading: "File Transfer & Chat Application",
         type: "📱 Android Application",
-        description: "Application that can transfer files from one device to another in close proxcimity,solves the problem of transfering files without internet",
+        description: "Application that can transfer files from one device to another in close proximity,solves the problem of transfering files without internet",
         link: "https://github.com/Tejas-Ladhani/File-Transfer"
     },
     {
-        id:2,
+        id: 2,
         img_src: "assets/icons/project-icons/laugh.png",
         date: "2021",
         heading: "LaughShare",
         type: "📱 Android Application",
-        description: "A meme sharing android application , in which the memes can be enjoyed and shared . Used volley and glide library to GET the response and display the meme.",
+        description: "A meme sharing android application , in which the memes can be enjoyed and shared . Used volley and glide library to GET the response and display the same.",
         link: "https://github.com/Tejas-Ladhani/LaughShare"
     },
     {
-        id:3,
+        id: 3,
         img_src: "assets/icons/project-icons/miwok.png",
         date: "2020",
         heading: "Learn-Miwok App",
@@ -62,7 +63,7 @@ export default function Project() {
         link: "https://github.com/Tejas-Ladhani/Miwok-App"
     },
     {
-        id:4,
+        id: 4,
         img_src: "assets/icons/project-icons/game.png",
         date: "2020",
         heading: "Dodge Ball & Snake Game(2 in 1)",
@@ -75,16 +76,21 @@ export default function Project() {
 
     const projects = pros.map((items) => {
         return (
+
             <div key={items.id} className="resume-wrap d-flex mt-2">
-                <img src={items.img_src} width="40" height="40" />
-                <div className="text pl-3">
-                    <span style={date_style}>{items.date}</span>
-                    <h2>{items.heading}</h2>
-                    <span className="position">{items.type}</span>
-                    <p className="dis"> {items.description}</p>
-                    <p ><a href={items.link} className="px-3  py-2 butn" style={btn_style}>View Project</a></p>
-                </div>
-            </div>
+
+                <Bounce left>
+                    <img src={items.img_src} width="40" height="40" alt={items.heading} />
+                    <div className="text pl-3">
+                        <span style={date_style}>{items.date}</span>
+                        <h2>{items.heading}</h2>
+                        <span className="position">{items.type}</span>
+                        <p className="dis"> {items.description}</p>
+                        <p ><a target="_blank" rel="noopener noreferrer" href={items.link} className="px-3  py-2 butn" style={btn_style}>View Project</a></p>
+                    </div>
+                </Bounce>
+            </div> 
+
         )
 
     })

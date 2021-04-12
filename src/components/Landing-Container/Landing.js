@@ -1,6 +1,8 @@
 import React, {  useContext } from 'react'
 import './Landing.css'
 import { context } from '../../App'
+import Fade from 'react-reveal/Fade';
+
 function Landing() {
     const color = useContext(context)
     
@@ -27,11 +29,12 @@ function Landing() {
             <div className="container" >
                 <div className="col-lg-12 col-md-12 ">
                     <div className="lcontent ">
+                    <Fade top>
                         <div className="text text-center">
                             <span className="subheading">Hey 👋!</span>
                             <h1  > I'm Tejas Ladhani.</h1>
                         </div>
-
+</Fade>
                     </div>
                 </div>
 

@@ -1,6 +1,7 @@
 import React ,{useContext} from 'react'
 import './Education.css'
 import {context} from '../../App'
+import Fade from 'react-reveal/Fade';
 export default function Education() {
     const colr=useContext(context);
     //console.log(colr)
@@ -42,15 +43,19 @@ export default function Education() {
 
     const education = edu.map((item) => {
         return (
+          
             <div key={item.id} className="resume-wrap  d-flex mb-4 mt-1">
-                <img src={item.img_src} width="40" height="40" />
+                  <Fade right>
+                <img src={item.img_src} width="40" height="40" alt={item.heading}/>
                 <div className="text pl-3">
                     <span style={date_style}>{item.date}</span>
                     <h2>{item.heading}</h2>
                     <span className="position">{item.insitute}</span>
 
                 </div>
+                </Fade>
             </div>
+            
         )
     })
 

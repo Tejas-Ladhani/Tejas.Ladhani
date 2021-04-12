@@ -1,6 +1,7 @@
 import React,{useContext} from 'react'
 import './Contactme.css'
 import {context} from '../../App'
+import Fade from 'react-reveal/Fade';
 function Contactme() {
 const color=useContext(context)
 const icon_style={
@@ -45,8 +46,9 @@ const data = [
 
     const map_data = data.map((item) => {
         return (
+           
             <div key={item.id} className="col-md-6 col-lg-3 d-flex ">
-
+                <Fade bottom>
                 <div className="align-self-stretch bx text-center p-4 shadow">
                     <div className="d-flex align-items-center justify-content-center" style={icon_style}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -55,10 +57,12 @@ const data = [
                     </div>
                     <div>
                         <h3 className="mb-4">{item.heading}</h3>
-                        <p><a href={item.href}>{item.subheading}</a></p>
+                        <p><a rel="noreferrer" target="_blank" href={item.href}>{item.subheading}</a></p>
                     </div>
                 </div>
+                </Fade>
             </div>
+            
         )
     })
 

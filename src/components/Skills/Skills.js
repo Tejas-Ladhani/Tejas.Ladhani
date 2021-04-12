@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import './Skills.css';
 import { languages, vc, frontEnd_tech ,DBase} from './Skills_const';
 import {context} from '../../App'
+import Fade from 'react-reveal/Fade';
 export default function Skills() {
 
     const colr=useContext(context);
@@ -14,6 +15,7 @@ export default function Skills() {
         lineHeight: '1.5'
     }
     return (
+        <Fade top>
         <div id="page-3" className="Skills mt-5 mb-5">
             <h2 style={heading_style}>Skills</h2>
             <div>
@@ -27,5 +29,6 @@ export default function Skills() {
                 {DBase}
             </div>
         </div>
+        </Fade>
     )
 }

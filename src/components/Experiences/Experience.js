@@ -31,17 +31,18 @@ const exp=[{
     heading:'Web Devloper',
     description:'Responsible for developing and re-designed website for IT department of CSPIT,CHARUSAT ',
     insitute:'KDKPIT,CHARUSAT',
+    href:'https://harshviradia.github.io/kdpit_CHARUSAT/'
 }]
     const experience = exp.map((item) => {
         return (
             <div key={item.id} className="resume-wrap  d-flex mb-4 mt-1">
-                <img src={item.img_src} width="40" height="40" />
+                <img src={item.img_src} width="40" height="40" alt={item.heading} />
                 <div className="text pl-3">
                     <span style={date_style}>{item.date}</span>
                     <h2>{item.heading}</h2>
                     <span className="position">{item.insitute}</span>
                     <p className="dis"> {item.description}</p>
-                    <p ><a href={item.link} className="px-3  py-2 butn" style={btn_style}>View Project</a></p>
+                    <p><a target="_blank" rel="noopener noreferrer" href={item.href} className="px-3  py-2 butn" style={btn_style}>View Project</a></p>
                 </div>
             </div>
         )

@@ -18,7 +18,7 @@ export default function Aboutme() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 d-none d-sm-block px-5 pt-1">
-                        <img className="img img-fluid pt-5" draggable="false" src={profilePath} />
+                        <img className="img img-fluid pt-5" draggable="false" src={profilePath} alt="Tejas' Profile" />
                     </div>
                     <div className="col-md-6 col-12  pl-md-5 py-5">
                         <div className="row justify-content-start pb-3">
@@ -39,7 +39,7 @@ export default function Aboutme() {
                         </div>
                         <div className="counter-wrap d-flex mt-md-3">
 
-                            <div className="btn butn" style={btn_style}>Download Resume</div>
+                            <a rel="noopener noreferrer" href="assets/files/Tejas Ladhani's Resume.pdf" download><div className="btn butn"   style={btn_style}>Download Resume</div></a>
 
                         </div>
                     </div>
