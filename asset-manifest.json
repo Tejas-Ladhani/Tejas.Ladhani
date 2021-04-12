@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Tejas.Ladhani/static/css/main.87cf3d20.chunk.css",
-    "main.js": "/Tejas.Ladhani/static/js/main.90538302.chunk.js",
-    "main.js.map": "/Tejas.Ladhani/static/js/main.90538302.chunk.js.map",
+    "main.css": "/Tejas.Ladhani/static/css/main.52bf6071.chunk.css",
+    "main.js": "/Tejas.Ladhani/static/js/main.50d33141.chunk.js",
+    "main.js.map": "/Tejas.Ladhani/static/js/main.50d33141.chunk.js.map",
     "runtime-main.js": "/Tejas.Ladhani/static/js/runtime-main.2f2c1294.js",
     "runtime-main.js.map": "/Tejas.Ladhani/static/js/runtime-main.2f2c1294.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/Tejas.Ladhani/static/css/2.4c97ca4f.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.5d0135ed.chunk.js.map": "/Tejas.Ladhani/static/js/3.5d0135ed.chunk.js.map",
     "index.html": "/Tejas.Ladhani/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/Tejas.Ladhani/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.87cf3d20.chunk.css.map": "/Tejas.Ladhani/static/css/main.87cf3d20.chunk.css.map",
+    "static/css/main.52bf6071.chunk.css.map": "/Tejas.Ladhani/static/css/main.52bf6071.chunk.css.map",
     "static/js/2.50af4a3c.chunk.js.LICENSE.txt": "/Tejas.Ladhani/static/js/2.50af4a3c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2f2c1294.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.50af4a3c.chunk.js",
-    "static/css/main.87cf3d20.chunk.css",
-    "static/js/main.90538302.chunk.js"
+    "static/css/main.52bf6071.chunk.css",
+    "static/js/main.50d33141.chunk.js"
   ]
 }
