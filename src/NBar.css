@@ -10,9 +10,7 @@
     font-weight: 500;
     border-bottom: 1px solid transparent;
 }
-.nav-link:last-child{
-   margin-left: 0.5rem;
-}
+
 .nav-link:hover{
     transition: 0.2s;
     border-bottom: 1px solid blue;
@@ -40,5 +38,9 @@
 }
 
 .f-container .cbtn{
-    margin-left: 24px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.navbar-collapse {
+    background:#ffffff;
 }

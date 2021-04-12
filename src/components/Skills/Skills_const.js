@@ -1,6 +1,6 @@
 const proLangs = <div >
     <h6>Programming Languages</h6>
-    <div className="d-flex sm-flex-wrap flex-row scon">
+    <div className="d-flex flex-wrap flex-row scon">
         <img className="p-2 m-2" src="assets/icons/skills-icon/programming-lang/c.png" width="80" height="80" alt=""/>
         <img className="p-2 m-2" src="assets/icons/skills-icon/programming-lang/cpp.svg" width="80" height="80" alt=""/>
         <img className="p-2 m-2" src="assets/icons/skills-icon/programming-lang/java.svg" width="80" height="80" alt=""/>
