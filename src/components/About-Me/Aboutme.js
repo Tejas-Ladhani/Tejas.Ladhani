@@ -15,7 +15,7 @@ export default function Aboutme() {
 
     return (
         <div className="Aboutme" id="Aboutme">
-            <div className="container">
+            <div >
                 <div className="row">
                     <div className="col-md-6 d-none d-sm-block px-5 pt-1">
                         <img className="img img-fluid pt-5" draggable="false" src={profilePath} alt="Tejas' Profile" />

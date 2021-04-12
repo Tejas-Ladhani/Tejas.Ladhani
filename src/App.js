@@ -32,7 +32,7 @@ export default function App() {
                     <Navbar expand="md"  className="pb-2">
                         <Navbar.Brand href="/">Tejas</Navbar.Brand>
                         <Navbar.Toggle aria-controls="" />
-                        <Navbar.Collapse bg="dark" className="f-container">
+                        <Navbar.Collapse className="f-container">
                             <Nav >
                                 <Nav.Link href="#Aboutme">About</Nav.Link>
                                 <Nav.Link href="#Resume">Resume</Nav.Link>
@@ -46,12 +46,12 @@ export default function App() {
                 <context.Provider value={selectedColor}>
                 <Landing/>
                 <Aboutme color={selectedColor} />
-                <div className="container">
+               
                     <div className="row">
                         <Rsidebar />
                         <RContent />
                     </div>
-                </div>
+                
                 <Contactme/>
                
                 </context.Provider>

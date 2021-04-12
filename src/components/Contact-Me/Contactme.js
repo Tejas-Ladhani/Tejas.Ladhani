@@ -70,7 +70,7 @@ const data = [
     return (
 
 
-        <div id="contact" className="container mt-4">
+        <div id="contact" className="mt-4">
             <div className="row justify-content-center mb-5 pb-3 w-100">
                 <div className="col-md-7 heading-section text-center ">
                     <h2 className="my-5">Get In Touch.</h2>

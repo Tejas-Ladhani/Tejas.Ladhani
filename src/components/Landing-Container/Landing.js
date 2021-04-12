@@ -26,7 +26,7 @@ function Landing() {
             <div className="overlay" style={overlayStyle} >
             </div>
 
-            <div className="container" >
+            <div >
                 <div className="col-lg-12 col-md-12 ">
                     <div className="lcontent ">
                     <Fade top>

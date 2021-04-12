@@ -1,7 +1,7 @@
 .f-container{
     padding-top: .7rem;
     justify-content: flex-end !important;
-    padding-right: 5rem;
+    /* padding-right: 5rem; */
 }
 .nav-link{
     margin-left: 1rem;
@@ -40,7 +40,4 @@
 .f-container .cbtn{
     margin-left: 1rem;
     margin-right: 1rem;
-}
-.navbar-collapse {
-    background:#ffffff;
 }
