@@ -21,7 +21,7 @@ export default function App() {
             onChangeComplete={c => setselectedColor(c.hex)}
         />
     }>
-        <button className="btn cbtn"  style={{ backgroundColor: selectedColor ,color:'white',opacity:'0.8'}}> Theme</button>
+        <button className="btn cbtn"  style={{ backgroundColor: selectedColor ,color:'white',opacity:'0.8'}}>Customize</button>
     </Tippy>
 
     return (

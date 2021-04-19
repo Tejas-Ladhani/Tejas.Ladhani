@@ -29,9 +29,9 @@ const exp=[{
     img_src:'assets/icons/skills-icon/others/web_dev.png',
     date:'Dec 2020 - Present',
     heading:'Web Devloper',
-    description:'Responsible for developing and re-designed website for IT department of CSPIT,CHARUSAT ',
+    description:'Member of web devlopment team Responsible of IT department, CSPIT, CHARUSAT. Was responsible for developing and re-designing website.',
     insitute:'KDKPIT,CHARUSAT',
-    href:'https://harshviradia.github.io/kdpit_CHARUSAT/'
+    href:'https://www.charusat.ac.in/cspit/it/'
 }]
     const experience = exp.map((item) => {
         return (

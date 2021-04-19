@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { context } from '../../App'
-import Bounce from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 export default function Project() {
 
     const colr = useContext(context);
@@ -31,32 +31,32 @@ export default function Project() {
         img_src: "assets/icons/project-icons/FFIT.png",
         date: "2021-Present",
         heading: "FFit",
-        type: "🌐A web application",
-        description: "Application which will helps user to maintain their financial protfolio.User can keep track of different stocks with the help of beautiful graphs.ReactJs is used for Front-End dev. And FireBase for database and authentication.",
+        type: "🌐 A web application",
+        description: "A web application that helps you manage your money easily. It is a tool that helps you create and manage your monthly budgets without any hassle. User can keep track of different stocks with the help of beautiful graphs. ReactJs is used for Front-End dev. And FireBase for database and authentication.",
         link: "https://github.com/Tejas-Ladhani/F-Fit"
     },
     {
         id: 1,
         img_src: "assets/icons/project-icons/file.png",
-        date: "2020",
+        date: "Dec 2020",
         heading: "File Transfer & Chat Application",
         type: "📱 Android Application",
-        description: "Application that can transfer files from one device to another in close proximity,solves the problem of transfering files without internet",
+        description: "Application that can transfer files from one device to another in close proximity, solves the problem of transfering files without internet",
         link: "https://github.com/Tejas-Ladhani/File-Transfer"
     },
     {
         id: 2,
         img_src: "assets/icons/project-icons/laugh.png",
-        date: "2021",
+        date: "Jan 2021",
         heading: "LaughShare",
         type: "📱 Android Application",
-        description: "A meme sharing android application , in which the memes can be enjoyed and shared . Used volley and glide library to GET the response and display the same.",
+        description: "A meme sharing android application, in which the memes can be enjoyed and shared. Used volley and glide library to GET the response and display the same.",
         link: "https://github.com/Tejas-Ladhani/LaughShare"
     },
     {
         id: 3,
         img_src: "assets/icons/project-icons/miwok.png",
-        date: "2020",
+        date: "Oct 2020",
         heading: "Learn-Miwok App",
         type: "📱 Android Application",
         description: "This Android application is a contribution towards preservation of endangered languages (Miwok is one of them).By using this application user can learn the basics as well as the pronunciations of different words of Miwok Language.",
@@ -64,9 +64,9 @@ export default function Project() {
     },
     {
         id: 4,
-        img_src: "assets/icons/project-icons/game.png",
-        date: "2020",
-        heading: "Dodge Ball & Snake Game(2 in 1)",
+        img_src: "assets/icons/project-icons/file.png",
+        date: "March 2020",
+        heading: "Dodge Ball & Snake Game",
         type: "🖥️ Executable Application",
         description: "A console based game ,developed in CPP-14",
         link: "https://github.com/Tejas-Ladhani/ObjectObstacle-Snake_Game_CPlusPlus"
@@ -80,7 +80,7 @@ export default function Project() {
             <div key={items.id} className="resume-wrap d-flex mt-2">
 
                 <Bounce left>
-                    <img src={items.img_src} width="40" height="40" alt={items.heading} />
+                    <img src={items.img_src} width="35" height="35" alt={items.heading} />
                     <div className="text pl-3">
                         <span style={date_style}>{items.date}</span>
                         <h2>{items.heading}</h2>
