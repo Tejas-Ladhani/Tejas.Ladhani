@@ -28,9 +28,9 @@ const exp=[{
     id:0,
     img_src:'assets/icons/skills-icon/others/web_dev.png',
     date:'Dec 2020 - Present',
-    heading:'Web Devloper',
-    description:'Member of web devlopment team Responsible of IT department, CSPIT, CHARUSAT. Was responsible for developing and re-designing website.',
-    insitute:'KDKPIT,CHARUSAT',
+    heading:'Web Developer',
+    description:'Member of web development team Responsible of IT department, CSPIT, CHARUSAT. Was responsible for developing and re-designing website.',
+    institute:'KDKPIT,CHARUSAT',
     href:'https://www.charusat.ac.in/cspit/it/'
 }]
     const experience = exp.map((item) => {
@@ -40,7 +40,7 @@ const exp=[{
                 <div className="text pl-3">
                     <span style={date_style}>{item.date}</span>
                     <h2>{item.heading}</h2>
-                    <span className="position">{item.insitute}</span>
+                    <span className="position">{item.institute}</span>
                     <p className="dis"> {item.description}</p>
                     <p><a target="_blank" rel="noopener noreferrer" href={item.href} className="px-3  py-2 butn" style={btn_style}>View Project</a></p>
                 </div>

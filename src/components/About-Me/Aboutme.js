@@ -26,14 +26,13 @@ export default function Aboutme() {
 
                                 <h2 className="mb-4">About Me</h2>
                                 <h3>Let me introduce.</h3>
-                                <p>I'm a Programmer, Developer &amp; Tech Enthusiat. Trying to turn my ideas into Reality.</p>
+                                <p>I'm a Programmer, Developer &amp; Tech Enthusiast. Trying to turn my ideas into Reality.</p>
                                 <h3 className="mb-4">Profile</h3>
                                 <p>I am a sophomore, Pursuing B.Tech in Information Technology and a budding software engineer.</p>
                                 <ul className="about-info mt-4 px-md-0 px-2">
                                     <li className="d-flex content"><span>Name:</span> <span>Tejas Ladhani</span></li>
                                     <li className="d-flex content"><span>Location:</span> <span> Gujarat, India. </span></li>
                                     <li className="d-flex content"><span>Email:</span> <span>contact.tejasladhani@gmail.com</span></li>
-                                    <li className="d-flex content"><span>Phone: </span> <span>+(91)-92657-06142</span></li>
                                 </ul>
                             </div>
                         </div>

@@ -23,7 +23,7 @@ export default function Education() {
         img_src: "assets/icons/eduIcons/engineer.svg",
         date: "2019-Present",
         heading: "Bachelor of Technology in Information technology",
-        insitute: "Charotar University Of Science And Technology"
+        institute: "Charotar University Of Science And Technology"
     },
 
     {
@@ -31,14 +31,14 @@ export default function Education() {
         img_src: "assets/icons/eduIcons/highschool.svg",
         date: "2018-2019",
         heading: "Higher Secondary Education",
-        insitute: "kendriya vidyalaya"
+        institute: "kendriya vidyalaya"
     },
     {
         id: 2,
         img_src: "assets/icons/eduIcons/secondary school.png",
         date: "2016-2017",
         heading: "Secondary School Education",
-        insitute: "kendriya vidyalaya"
+        institute: "kendriya vidyalaya"
     }]
 
     const education = edu.map((item) => {
@@ -50,7 +50,7 @@ export default function Education() {
                 <div className="text pl-3">
                     <span style={date_style}>{item.date}</span>
                     <h2>{item.heading}</h2>
-                    <span className="position">{item.insitute}</span>
+                    <span className="position">{item.institute}</span>
 
                 </div>
                 </Fade>
