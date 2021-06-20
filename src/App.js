@@ -30,7 +30,7 @@ export default function App() {
             <div className="container">
                 <div>
                     <Navbar expand="md"  className="pb-2">
-                        <Navbar.Brand href="/">Tejas</Navbar.Brand>
+                        <Navbar.Brand href="/Tejas.Ladhani">Tejas</Navbar.Brand>
                         <Navbar.Toggle aria-controls="" />
                         <Navbar.Collapse className="f-container">
                             <Nav >
