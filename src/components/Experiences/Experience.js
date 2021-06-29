@@ -29,7 +29,7 @@ const exp=[{
     img_src:'assets/icons/skills-icon/others/web_dev.png',
     date:'Dec 2020 - Present',
     heading:'Web Developer',
-    description:'Member of web development team Responsible of IT department, CSPIT, CHARUSAT. Was responsible for developing and re-designing website.',
+    description:'Member of web development team for IT department, CSPIT, CHARUSAT. Was responsible for developing and re-designing website.',
     institute:'KDKPIT,CHARUSAT',
     href:'https://www.charusat.ac.in/cspit/it/'
 }]
