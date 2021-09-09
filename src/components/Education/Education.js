@@ -33,13 +33,14 @@ export default function Education() {
         heading: "Higher Secondary Education",
         institute: "kendriya vidyalaya"
     },
-    {
-        id: 2,
-        img_src: "assets/icons/eduIcons/secondary school.png",
-        date: "2016-2017",
-        heading: "Secondary School Education",
-        institute: "kendriya vidyalaya"
-    }]
+    // {
+    //     id: 2,
+    //     img_src: "assets/icons/eduIcons/secondary school.png",
+    //     date: "2016-2017",
+    //     heading: "Secondary School Education",
+    //     institute: "kendriya vidyalaya"
+    // }
+]
 
     const education = edu.map((item) => {
         return (

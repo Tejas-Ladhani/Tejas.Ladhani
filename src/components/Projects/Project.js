@@ -83,7 +83,7 @@ export default function Project() {
                     <img src={items.img_src} width="35" height="35" alt={items.heading} />
                     <div className="text pl-3">
                         <span style={date_style}>{items.date}</span>
-                        <h2>{items.heading}</h2>
+                        <h3>{items.heading}</h3>
                         <span className="position">{items.type}</span>
                         <p className="dis"> {items.description}</p>
                         <p ><a target="_blank" rel="noopener noreferrer" href={items.link} className="px-3  py-2 butn" style={btn_style}>View Project</a></p>

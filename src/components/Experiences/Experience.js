@@ -24,14 +24,34 @@ function Experience() {
         backgroundColor:colr
     }
     // 
+    let id = 0
 const exp=[{
-    id:0,
+    id:id++,
+    img_src:'assets/icons/skills-icon/others/GDSC.png',
+    date:'Aug 2021 - Present',
+    heading:'Web Development Team Member',
+    description:'',
+    institute:'Google Developer Students Club, CHARUSAT',
+    href:'https://www.charusat.ac.in/cspit/it/',
+    isProjectAvailable:false,
+},{
+    id:id++,
     img_src:'assets/icons/skills-icon/others/web_dev.png',
-    date:'Dec 2020 - Present',
+    date:'Jun - Jul 2021',
+    heading:'React Dev Intern',
+    description:'React developer & project maintainer for the "Distribution management system" project, a PERN Stack (Postgres, Express, React, & Node.js) application.',
+    institute:'MSquare Technologies, Surat',
+    href:'https://www.charusat.ac.in/cspit/it/',
+    isProjectAvailable:false,
+},{
+    id:id++,
+    img_src:'assets/icons/skills-icon/others/web_dev.png',
+    date:'Dec 2020 - Jul 2021',
     heading:'Web Developer',
     description:'Member of web development team of IT department, CSPIT, CHARUSAT. Was responsible for developing and re-designing website.',
     institute:'KDKPIT,CHARUSAT',
-    href:'https://www.charusat.ac.in/cspit/it/'
+    href:'https://www.charusat.ac.in/cspit/it/',
+    isProjectAvailable:true,
 }]
     const experience = exp.map((item) => {
         return (
@@ -39,10 +59,14 @@ const exp=[{
                 <img src={item.img_src} width="40" height="40" alt={item.heading} />
                 <div className="text pl-3">
                     <span style={date_style}>{item.date}</span>
-                    <h2>{item.heading}</h2>
+                    <h3>{item.heading}</h3>
                     <span className="position">{item.institute}</span>
                     <p className="dis"> {item.description}</p>
-                    <p><a target="_blank" rel="noopener noreferrer" href={item.href} className="px-3  py-2 butn" style={btn_style}>View Project</a></p>
+                    {item.isProjectAvailable?
+                        <p><a target="_blank" rel="noopener noreferrer" href={item.href} className="px-3  py-2 butn" style={btn_style}>View Project</a></p>
+                        :
+                        <p></p>
+                    }
                 </div>
             </div>
         )
