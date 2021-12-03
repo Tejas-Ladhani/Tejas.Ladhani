@@ -1,9 +1,8 @@
 import React,{useContext} from 'react';
 import './Aboutme.css';
 import {context} from '../../App'
-
 export default function Aboutme() {
-    const profilePath = "assets/images/photo.jpg";
+    const profilePath = "./photo.jpg";
     const color = useContext(context)
     
     const btn_style={
@@ -14,11 +13,11 @@ export default function Aboutme() {
     }
 
     return (
-        <div className="Aboutme" id="Aboutme">
+        <div className="Aboutme mt-5 pt-4" id="Aboutme">
             <div >
                 <div className="row">
                     <div className="col-md-6 d-none d-sm-block px-5 pt-1">
-                        <img className="img img-fluid pt-5" draggable="false" src={profilePath} alt="Tejas' Profile" />
+                        <img className="img img-fluid pt-5" draggable="false" src="assets/images/photo.jpg" alt="Tejas' Profile" />
                     </div>
                     <div className="col-md-6 col-12  pl-md-5 py-5">
                         <div className="row justify-content-start pb-3">

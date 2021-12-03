@@ -8,12 +8,13 @@ export default function RContent() {
 
 
     return (
-        
+
         <div id="Resume" className="col-md-9 ">
+           
             <Education />
-            <Experience/>
+            <Experience />
             <Project />
-            <Skills/>
+            <Skills />
         </div>
     )
 }

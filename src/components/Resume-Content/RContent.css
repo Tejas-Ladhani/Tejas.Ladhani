@@ -1,14 +1,16 @@
-.resume-wrap  {
+.resume-wrap {
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 10px;
-  
+
 }
+
 .resume-wrap .date {
     font-weight: 700;
     font-size: 16px;
     /* color: #3e64ff; */
 }
+
 .resume-wrap .position {
     font-size: 18px;
     font-weight: 700;
@@ -19,8 +21,6 @@
     width: calc(100% - 50px);
 }
 
-.dis{
-   color: #8b8989;
+.dis {
+    color: #8b8989;
 }
-
-

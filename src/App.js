@@ -13,7 +13,7 @@ import Footer from './components/Footer/Footer'
 
 export const context = createContext();
 export default function App() {
-    const [selectedColor, setselectedColor] = useState('#3e64ff');
+    const [selectedColor, setselectedColor] = useState('#FF8A65');
     const btn = <Tippy interactive={true} placement={'bottom'} content={
 
         <BlockPicker
@@ -28,21 +28,23 @@ export default function App() {
         <>
            
             <div className="container">
-                <div>
-                    <Navbar expand="md"  className="pb-2">
+                    <Navbar expand="md"  className="fixed-top">
                         <Navbar.Brand href="/Tejas.Ladhani">Tejas</Navbar.Brand>
                         <Navbar.Toggle aria-controls="" />
                         <Navbar.Collapse className="f-container">
                             <Nav >
                                 <Nav.Link href="#Aboutme">About</Nav.Link>
-                                <Nav.Link href="#Resume">Resume</Nav.Link>
+                                <Nav.Link href="#page-1">Education</Nav.Link>
+                                <Nav.Link href="#page-e">Experience</Nav.Link>
+                                <Nav.Link href="#page-2">Projects</Nav.Link>
+                                <Nav.Link href="#page-3">Skills</Nav.Link>
                                 <Nav.Link href="#contact">Contact</Nav.Link>
                             </Nav>
-                            {btn}
+                            {/* {btn} */}
                         </Navbar.Collapse>
                         
                     </Navbar>
-                </div>
+                
                 <context.Provider value={selectedColor}>
                 <Landing/>
                 <Aboutme color={selectedColor} />

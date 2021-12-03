@@ -1,11 +1,11 @@
-import React, {  useContext } from 'react'
+import React, { useContext } from 'react'
 import './Landing.css'
 import { context } from '../../App'
 import Fade from 'react-reveal/Fade';
 
 function Landing() {
     const color = useContext(context)
-    
+
     const overlayStyle = {
 
         position: 'absolute',
@@ -16,7 +16,7 @@ function Landing() {
         content: '',
         opacity: '.1',
         width: '50%',
-        zIndex:'-1',
+        zIndex: '-1',
         background: color
     }
     return (
@@ -29,16 +29,17 @@ function Landing() {
             <div >
                 <div className="col-lg-12 col-md-12 ">
                     <div className="lcontent ">
-                    <Fade top>
-                        <div className="text text-center">
-                            <span className="subheading">Hey 👋!</span>
-                            <h1  > I'm Tejas Ladhani.</h1>
-                        </div>
-</Fade>
+                        <Fade top>
+                            <div className="text text-center">
+                                <span className="subheading">Hey 👋!</span>
+                                <h1  > I'm Tejas Ladhani.</h1>
+                            </div>
+                        </Fade>
                     </div>
                 </div>
 
             </div>
+            
         </div>
 
 
