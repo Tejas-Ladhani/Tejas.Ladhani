@@ -29,7 +29,7 @@ export default function Project() {
     const pros = [
         {
             id: -1,
-            img_src: "assets/icons/project-icons/FFIT.png",
+            img_src: "assets/icons/project-icons/file.png",
             date: "2021-Present",
             heading: "Handle My Admissions",
             type: "🌐 Full Stack application",
