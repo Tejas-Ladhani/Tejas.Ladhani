@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './Skills.css';
-import { languages, vc, frontEnd_tech, DBase } from './Skills_const';
+import { languages, vc, frontEnd_tech, DBase, web_dev } from './Skills_const';
 import { context } from '../../App'
 import Fade from 'react-reveal/Fade';
 export default function Skills() {
@@ -22,10 +22,10 @@ export default function Skills() {
                     <Fade top>
                         <h5>Languages : </h5>
                         {languages}
+                        <h5>Web Development tech :</h5>
+                        {web_dev}
                         <h5>Version controlling tools :</h5>
                         {vc}
-                        <h5>FrontEnd libraries :</h5>
-                        {frontEnd_tech}
                         <h5>Database :</h5>
                         {DBase}
                     </Fade>
