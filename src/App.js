@@ -2,7 +2,7 @@
 import React, { useState, createContext } from 'react'
 import { BlockPicker } from 'react-color'
 import Tippy from '@tippyjs/react'
-import { Navbar, Nav} from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import Landing from './components/Landing-Container/Landing'
 import Rsidebar from './components/Resume-Sidebar/Rsidebar';
 import RContent from './components/Resume-Content/RContent';
@@ -21,44 +21,44 @@ export default function App() {
             onChangeComplete={c => setselectedColor(c.hex)}
         />
     }>
-        <button className="btn cbtn"  style={{ backgroundColor: selectedColor ,color:'white',opacity:'0.8'}}>Customize</button>
+        <button className="btn cbtn" style={{ backgroundColor: selectedColor, color: 'white', opacity: '0.8' }}>Customize</button>
     </Tippy>
 
     return (
         <>
-           
+
             <div className="container">
-                    <Navbar expand="md"  className="fixed-top">
-                        <Navbar.Brand href="/Tejas.Ladhani">Tejas</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="" />
-                        <Navbar.Collapse className="f-container">
-                            <Nav >
-                                <Nav.Link href="#Aboutme">About</Nav.Link>
-                                <Nav.Link href="#page-1">Education</Nav.Link>
-                                <Nav.Link href="#page-e">Experience</Nav.Link>
-                                <Nav.Link href="#page-2">Projects</Nav.Link>
-                                <Nav.Link href="#page-3">Skills</Nav.Link>
-                                <Nav.Link href="#contact">Contact</Nav.Link>
-                            </Nav>
-                            {/* {btn} */}
-                        </Navbar.Collapse>
-                        
-                    </Navbar>
-                
+                <Navbar expand="md" className="fixed-top" collapseOnSelect="true">
+                    <Navbar.Brand href="/Tejas.Ladhani">Tejas</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="" />
+                    <Navbar.Collapse className="f-container">
+                        <Nav >
+                            <Nav.Link href="#Aboutme">About</Nav.Link>
+                            <Nav.Link href="#page-1" data-toggle="collapse" data-target=".nav-collapse.show">Education</Nav.Link>
+                            <Nav.Link href="#page-e" data-toggle="collapse" data-target=".nav-collapse.show">Experience</Nav.Link>
+                            <Nav.Link href="#page-2" data-toggle="collapse" data-target=".nav-collapse.show">Projects</Nav.Link>
+                            <Nav.Link href="#page-3" data-toggle="collapse" data-target=".nav-collapse.show">Skills</Nav.Link>
+                            <Nav.Link href="#contact" data-toggle="collapse" data-target=".nav-collapse.show">Contact</Nav.Link>
+                        </Nav>
+                        {/* {btn} */}
+                    </Navbar.Collapse>
+
+                </Navbar>
+
                 <context.Provider value={selectedColor}>
-                <Landing/>
-                <Aboutme color={selectedColor} />
-               
+                    <Landing />
+                    <Aboutme color={selectedColor} />
+
                     <div className="row">
                         <Rsidebar />
                         <RContent />
                     </div>
-                
-                <Contactme/>
-               
+
+                    <Contactme />
+
                 </context.Provider>
             </div>
-            <Footer/>
+            <Footer />
         </>
 
     )

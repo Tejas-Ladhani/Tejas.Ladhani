@@ -75,7 +75,7 @@ function Experience() {
         <>
             <div id="page-e"></div>
             <div className="Experience mb-4 mt-5 pt-4">
-                <div className="blob1 d-none d-md-block d-lg-block" style={{
+                <div className="blob1blob1 d-none d-md-block d-sm-none d-lg-block" style={{
                     opacity: '0.2',
                     position: 'absolute',
                     height: '350px',
@@ -89,7 +89,7 @@ function Experience() {
                 </div>
                 <h2 style={heading_style}>Experience</h2>
                 {experience}
-                <div className="blob1 d-none d-md-block d-lg-block" style={{
+                <div className="blob1blob1 d-none d-md-block d-sm-none d-lg-block" style={{
                     opacity: '0.2',
                     position: 'absolute',
                     height: '350px',

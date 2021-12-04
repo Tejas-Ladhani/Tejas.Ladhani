@@ -108,7 +108,7 @@ export default function Project() {
         <>
             <div id="page-2" />
             <div className="page mt-5 pt-4">
-                <div className="blob1 d-none d-md-block d-lg-block" style={{
+                <div className="blob1blob1 d-none d-md-block d-sm-none d-lg-block" style={{
                     opacity: '0.2',
                     position: 'absolute',
                     height: '450px',
@@ -123,7 +123,7 @@ export default function Project() {
                 <h2 style={heading_style}>Projects</h2>
                 {projects}
 
-                <div className="blob1 d-none d-md-block d-lg-block d-none d-md-block d-lg-block" style={{
+                <div className="blob1blob1 d-none d-md-block d-sm-none d-lg-blockblob1 d-none d-md-block d-sm-none d-lg-block" style={{
                     opacity: '0.2',
                     position: 'absolute',
                     height: '450px',
@@ -135,7 +135,7 @@ export default function Project() {
                         <path id="blob" d="M403,356.5Q319,463,236,392Q153,321,108,217.5Q63,114,185,94Q307,74,397,162Q487,250,403,356.5Z" fill="#fdcb6e"></path>
                     </svg>
                 </div>
-                <div className="blob1 d-none d-md-block d-lg-block d-none d-md-block d-lg-block" style={{
+                <div className="blob1blob1 d-none d-md-block d-sm-none d-lg-blockblob1 d-none d-md-block d-sm-none d-lg-block" style={{
                     opacity: '0.2',
                     position: 'absolute',
                     height: '450px',

@@ -4,7 +4,7 @@ export default function Rsidebar() {
     
   return (
 
-        <div className="col-md-3 ">
+        <div className="col-md-3 d-none d-sm-none d-md-block d-lg-block ">
         <nav id="navi">
             <ul>
               <li><a href="#page-1" >Education</a></li>

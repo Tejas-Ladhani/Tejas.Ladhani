@@ -33,7 +33,7 @@ export default function Skills() {
                     </Fade>
                 </div>
             </div>
-            <div className="blob1 d-none d-md-block d-lg-block d-none d-md-block d-lg-block" style={{
+            <div className="blob1blob1 d-none d-md-block d-sm-none d-lg-blockblob1 d-none d-md-block d-sm-none d-lg-block" style={{
                 opacity: '0.2',
                 position: 'absolute',
                 height: '650px',

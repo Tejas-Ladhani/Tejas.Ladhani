@@ -64,7 +64,7 @@ export default function Education() {
         <>
         <div id="page-1"></div>
             <div  className="Education mt-5 pt-4">
-                <div className="blob1 d-none d-md-block d-lg-block" style={{
+                <div className="blob1blob1 d-none d-md-block d-sm-none d-lg-block" style={{
                     opacity: '0.2',
                     position: 'absolute',
                     height: '450px',

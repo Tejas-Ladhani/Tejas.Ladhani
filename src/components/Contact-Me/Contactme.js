@@ -82,7 +82,18 @@ function Contactme() {
             <div className="row d-flex justify-content-center contact-info mb-5">
                 {map_data}
             </div>
-
+            <div className="blob1blob1 d-none d-md-block d-sm-none d-lg-block" style={{
+                    opacity: '0.2',
+                    position: 'absolute',
+                    height: '450px',
+                    zIndex: '-1',
+                    top:'300em',
+                    left: '18em'
+                }}>
+                    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100%" height="110%" id="blobSvg" >
+                        <path id="blob" d="M320.5,318Q250,386,141,318Q32,250,141,153Q250,56,320.5,153Q391,250,320.5,318Z" fill="#fdcb6e"></path>
+                    </svg>
+                </div>
         </div>
 
 
