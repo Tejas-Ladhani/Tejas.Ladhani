@@ -35,7 +35,7 @@ function Experience() {
             <li> Developed a design system from the ground up in order to standardize the design/UI across the organization's projects.</li>
             <li>Also, worked on symbl-chime-adapter, a Node package that allows users to use core symbl features on top of the AWS-chime SDK.</li>
         </ul>,
-        institute: 'Symbl.ai',
+        institute: '🏦 Symbl.ai',
         href: 'https://symbl.ai',
         isProjectAvailable: false,
     }, {
@@ -44,7 +44,7 @@ function Experience() {
         date: 'Jan - May 2022',
         heading: 'DevOps Trainee',
         description: '',
-        institute: 'Motorola Solutions Inc',
+        institute: '🏦 Motorola Solutions Inc',
         href: '',
         isProjectAvailable: false,
     },
@@ -54,7 +54,7 @@ function Experience() {
         date: 'Aug 2021 - Present',
         heading: 'Web Development Team Member',
         description: '',
-        institute: 'Google Developer Students Club, CHARUSAT',
+        institute: '🏦 Google Developer Students Club, CHARUSAT',
         href: 'https://www.charusat.ac.in/cspit/it/',
         isProjectAvailable: false,
     }, {
@@ -63,7 +63,7 @@ function Experience() {
         date: 'Jun - Jul 2021',
         heading: 'React Dev Intern',
         description: 'Development intern and maintainer for Distribution management system project, a PERN (PostgreSQL, Express, ReactJS, Node) stack project, the goal of this application is to create a multi-tenant system in which a distribution company can track a range of activities on daily basis.',
-        institute: 'MSquare Technologies, Surat',
+        institute: '🏦 MSquare Technologies, Surat',
         href: '',
         isProjectAvailable: false,
     }, {
@@ -72,7 +72,7 @@ function Experience() {
         date: 'Dec 2020 - Jul 2021',
         heading: 'Web Developer',
         description: 'Member of web development team of IT department, CSPIT, CHARUSAT. Was responsible for developing and re-designing website.',
-        institute: 'KDKPIT,CHARUSAT',
+        institute: '🏦 KDKPIT,CHARUSAT',
         href: 'https://www.charusat.ac.in/cspit/it/',
         isProjectAvailable: true,
     }]
