@@ -27,6 +27,29 @@ function Experience() {
     let id = 0
     const exp = [{
         id: id++,
+        img_src: 'https://cdn.onlinewebfonts.com/svg/img_44605.png',
+        date: 'Feb - May 2022',
+        heading: 'SWE Intern | GitHub Extern',
+        description: <ul>
+            <li> Selected as one of the top 93 GitHub Externs from 15K+ applicants for Winter Cohort'22</li>
+            <li> Developed a design system from the ground up in order to standardize the design/UI across the organization's projects.</li>
+            <li>Also, worked on symbl-chime-adapter, a Node package that allows users to use core symbl features on top of the AWS-chime SDK.</li>
+        </ul>,
+        institute: 'Symbl.ai',
+        href: 'https://symbl.ai',
+        isProjectAvailable: false,
+    }, {
+        id: id++,
+        img_src: 'https://3.bp.blogspot.com/_AcBUSVxs82w/Sp1DWTv6OXI/AAAAAAAAUTY/DdwZn7vQQjk/s400/Motorola_Logo.jpg',
+        date: 'Jan - May 2022',
+        heading: 'DevOps Trainee',
+        description: '',
+        institute: 'Motorola Solutions Inc',
+        href: '',
+        isProjectAvailable: false,
+    },
+    {
+        id: id++,
         img_src: 'assets/icons/skills-icon/others/GDSC.png',
         date: 'Aug 2021 - Present',
         heading: 'Web Development Team Member',
@@ -41,7 +64,7 @@ function Experience() {
         heading: 'React Dev Intern',
         description: 'Development intern and maintainer for Distribution management system project, a PERN (PostgreSQL, Express, ReactJS, Node) stack project, the goal of this application is to create a multi-tenant system in which a distribution company can track a range of activities on daily basis.',
         institute: 'MSquare Technologies, Surat',
-        href: 'https://www.charusat.ac.in/cspit/it/',
+        href: '',
         isProjectAvailable: false,
     }, {
         id: id++,
